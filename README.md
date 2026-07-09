@@ -57,10 +57,3 @@ npm test -- --run  # ejecuta las pruebas
 
 - Si tienes un backend propio, puedes configurarlo con la variable de entorno `VITE_API_URL`.
 - Si no está disponible, la app usará datos locales de respaldo para que puedas probarla sin problemas.
-
-## Desarrolladores
-
-- Sergio Puebla
-- Javiera Perez
-- Matías Bórquez
-#
