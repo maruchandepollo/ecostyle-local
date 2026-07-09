@@ -1,38 +1,65 @@
 # EcoStyle - Frontend
 
-Este es el repositorio del **frontend** del proyecto **EcoStyle**, una plataforma dedicada a la gestión integral de espacios verdes.  
+Este es el repositorio del frontend del proyecto EcoStyle, una plataforma para explorar, comprar y gestionar productos relacionados con plantas y decoración verde.
+
+## Tecnologías usadas
+
+- React
+- Vite
+- React Router DOM
+- Context API
+- CSS modular
+- Vitest
+
+## Requisitos
+
+- Node.js 18 o superior
+- npm 9 o superior
+
+## Instalación
+
+```bash
+git clone https://github.com/maruchandepollo/front-ecostyle.git
+cd front-ecostyle
+npm install
+```
+
+## Ejecución en local
+
+Inicia el servidor de desarrollo con:
+
+```bash
+npm run dev
+```
+
+Luego abre en tu navegador:
+
+```text
+http://localhost:5173
+```
+
+## Credenciales de prueba
+
+La app incluye un modo local para que puedas entrar sin backend:
+
+- Email: `admin@ecostyle.com`
+- Contraseña: `admin123`
+
+## Scripts disponibles
+
+```bash
+npm run dev      # inicia la app en modo desarrollo
+npm run build    # genera la versión lista para producción
+npm test -- --run  # ejecuta las pruebas
+```
+
+## Notas
+
+- Si tienes un backend propio, puedes configurarlo con la variable de entorno `VITE_API_URL`.
+- Si no está disponible, la app usará datos locales de respaldo para que puedas probarla sin problemas.
 
 ## Desarrolladores
 
-Este frontend fue desarrollado por:  
-- **Sergio Puebla** - [Perfil GitHub](https://github.com/maruchandepollo)  
-- **Javiera Perez** - [Perfil GitHub](https://github.com/javie-1122)  
-- **Matías Bórquez** - [Perfil GitHub](https://github.com/Anideout) 
-
-## Repositorio
-
-Puedes acceder al repositorio y clonar el proyecto desde el siguiente enlace:  
-[https://github.com/maruchandepollo/front-ecostyle.git](https://github.com/maruchandepollo/front-ecostyle.git)
-
-## Tecnologías utilizadas
-
-- **React** - Biblioteca principal para la construcción de interfaces.  
-- **Vite** - Herramienta de construcción y desarrollo.  
-- **CSS / SASS** - Para estilos y diseño responsivo.  
-- **React Router** - Para la navegación entre vistas.  
-- **Context API** - Gestión del estado global.  
-
-## Instalación y ejecución
-
-Sigue estos pasos para ejecutar el proyecto en tu máquina local:
-
-```bash
-# Clonar el repositorio
-git clone https://github.com/maruchandepollo/front-ecostyle.git
-cd front-ecostyle
-
-# Instalar dependencias
-npm install
-
-# Ejecutar el proyecto en modo desarrollo
-npm run dev
+- Sergio Puebla
+- Javiera Perez
+- Matías Bórquez
